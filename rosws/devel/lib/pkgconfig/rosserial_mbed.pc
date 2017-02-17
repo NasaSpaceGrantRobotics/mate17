@@ -1,0 +1,8 @@
+prefix=/home/alexb/mate17/devel
+
+Name: rosserial_mbed
+Description: Description of rosserial_mbed
+Version: 0.7.5
+Cflags: -I/home/alexb/mate17/devel/include
+Libs: -L/home/alexb/mate17/devel/lib 
+Requires: message_runtime

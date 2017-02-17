@@ -1,0 +1,26 @@
+For some reason the NUC did not have a static IP set.
+To set the static IP of any ethernet interface use:
+
+sudo nano /etc/network/interfaces
+
+edit the file so that it has this format:
+
+auto lo eth0
+iface lo inet loopback
+iface eth0 inet static
+        address xxx.xxx.xxx.xxx 
+        netmask xxx.xxx.xxx.xxx 
+        gateway xxx.xxx.xxx.xxx 
+
+exit then:
+
+sudo reboot
+
+If you are using an ethernet adpater, you have to temporarily set the IP.
+To do that run:
+
+Sudo ifconfig eth0 xxx.xxx.xxx.xxx 
+
+Has to be done EVERY time the adapter is inserted.
+
+

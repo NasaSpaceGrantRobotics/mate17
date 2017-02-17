@@ -1,0 +1,8 @@
+prefix=/home/alexb/mate17/install
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.7.5
+Cflags: -I/home/alexb/mate17/install/include
+Libs: -L/home/alexb/mate17/install/lib 
+Requires: message_runtime

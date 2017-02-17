@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo etherwake c0:3f:d5:6b:d6:85
+
+sleep 10
+
+
+sudo ifconfig eth0 10.0.0.1
+

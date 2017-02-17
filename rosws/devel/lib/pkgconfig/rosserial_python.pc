@@ -1,0 +1,8 @@
+prefix=/home/alexb/mate17/devel
+
+Name: rosserial_python
+Description: Description of rosserial_python
+Version: 0.7.5
+Cflags: 
+Libs: -L/home/alexb/mate17/devel/lib 
+Requires: 
